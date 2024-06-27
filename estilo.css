@@ -1,0 +1,157 @@
+.bg-img {
+    background-image: url('img/fondo-cli.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+hr{
+    padding:5px;
+    color: white;
+    border-radius: 5px 5;
+    margin: 5px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con transparencia */
+    
+}
+
+.card{
+    margin-top:55px;
+    max-width: 280px; /* Ancho máximo de la tarjeta */
+    max-height: 600px;
+    margin-left: auto; /* Centrar la tarjeta horizontalmente */
+    margin-right: auto; /* Centrar la tarjeta horizontalmente */
+    background-color: #356e9db9;
+    border-radius: 2px;
+    border-color: #6E9ABF;
+}
+
+.form-control{
+    max-width:300px;
+    background-color: #356e9d70;
+    border-radius: 5px;
+}
+
+
+.form-control:hover{
+    background-color: #257dc570;
+}
+
+.form-group {
+    display: flex;
+    align-items: center; /* Alinear los elementos verticalmente al centro */
+    margin-bottom: 2px;
+    border: 2px solid white; /* Borde blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar contenido que se desborda */
+    border-color: #6E9ABF; /* Color del borde */
+    height: 40px;
+}
+
+/* Estilo para las imágenes dentro del grupo de formularios */
+.form-group img {
+    padding: 10px;
+    border-radius: 5px 0 0 5px; /* Bordes redondeados para la esquina izquierda */
+}
+
+/* Estilo para los inputs dentro del grupo de formularios */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Sin borde */
+    outline: none; /* Sin contorno */
+}
+
+/* Estilo para el placeholder de los inputs de texto */
+input[type="text"]::placeholder {
+    color: white; /* Color blanco para el placeholder */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+/* Estilo para el placeholder de los inputs de contraseña */
+input[type="datetime"]::placeholder {
+    color: white; /* Color blanco para el placeholder */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.linea{
+    font-size: 10px;
+}
+
+h4{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.btn{
+    background-color: #6E9ABF;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.text{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.text h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4em;
+    margin: 5px;
+    color: white;  
+}
+.text h3 {
+    margin: 0;
+    margin-top: -20px;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-left: 180px;
+}
+.text p {
+    font-size: 1.2em;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Ajustes adicionales para dispositivos pequeños */
+@media (max-width: 576px) {
+    .card {
+        margin-top: 20px;
+    }
+    .text {
+        padding: 10px;
+    }
+    .text h1 {
+        font-size: 2.5em;
+    }
+    .text h3 {
+        font-size: 1.5em;
+    }
+    .text p {
+        font-size: 1em;
+    }
+}

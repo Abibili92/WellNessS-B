@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "LOGIN",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../clinica.login/clinica/img"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,172 @@
+.bg-img {
+    background-image: url('img/fondo-cli.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+hr{
+    padding:5px;
+    color: white;
+    border-radius: 5px 5;
+    margin: 5px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.h44{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.card2{
+    margin-top:55px;
+    max-width: 280px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #356e9db9;
+    border-radius: 2px;
+    border-color: #6E9ABF;
+}
+
+.form-control{
+    max-width:300px;
+    background-color: #356e9d70;
+    border-radius: 5px;
+}
+
+.form-control:hover{
+    background-color: #257dc570;
+}
+
+.form-group {
+    display: flex;
+    align-items: center; /* Alinear los elementos verticalmente al centro */
+    margin-bottom: 2px;
+    border: 2px solid white; /* Borde blanco */
+    border-radius: 8px;
+    overflow: hidden;
+    border-color: #6E9ABF;
+    height: 40px;
+}
+
+.form-group img {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: white;
+    text-align: left;
+}
+
+input[type="password"]::placeholder {
+    color: white;
+    text-align: left;
+}
+
+input[type="datetime"]::placeholder {
+    color: white;
+    text-align: left;
+}
+
+.linea{
+    font-size: 10px;
+}
+
+.btn1{
+    background-color: #6E9ABF;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn1:hover{
+    background-color: #4e7a9e;
+}
+
+.btn1:active{
+    background-color: #35658b;
+}
+
+.link{
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.text{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.text h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4em;
+    margin: 5px;
+    color: white;  
+}
+
+.text h3 {
+    margin: 0;
+    margin-top: -20px;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: "Questrial", sans-serif;
+    color: white;
+    margin-left: 180px;
+}
+
+.text p {
+    font-size: 1.2em;
+    position: relative;
+    font-family: "Questrial", sans-serif;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin-top: 20px;
+    }
+    .text {
+        padding: 10px;
+    }
+    .text h1 {
+        font-size: 2.5em;
+    }
+    .text h3 {
+        font-size: 1.5em;
+    }
+    .text p {
+        font-size: 1em;
+    }
+}
